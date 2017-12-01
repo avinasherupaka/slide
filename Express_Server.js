@@ -3,10 +3,10 @@ var app = express();
 
 app.use(express.logger("dev"));
 
-var albm_hdlr = require("D:\\Enterprise_Projs\\nodejs\\Lesson_7\\01play\\handlers\\AlbumHandler.js"),
-    pages_hdlr = require("D:\\Enterprise_Projs\\nodejs\\Lesson_7\\01play\\handlers\\PagesHandler.js"),
-    sFile_hdlr = require("D:\\Enterprise_Projs\\nodejs\\Lesson_7\\01play\\handlers\\StaticFileHandler.js"),
-    res_hdlr = require("D:\\Enterprise_Projs\\nodejs\\Lesson_7\\01play\\util\\ResponseUtil.js");
+var albm_hdlr = require("././handlers/AlbumHandler"),
+    pages_hdlr = require("././handlers/PagesHandler.js"),
+    sFile_hdlr = require("././handlers/StaticFileHandler.js"),
+    res_hdlr = require("././util/ResponseUtil.js");
 /*Routing or layering the middleware functions is very important.
 If a middleware function like Authentication is placed last in function calls then it will not be executed as,
 there might be another generic route handled the request.

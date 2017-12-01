@@ -1,7 +1,7 @@
 
 var fs = require('fs'),
-    res_hdlr = require("D:\\Enterprise_Projs\\nodejs\\Lesson_7\\01play\\util\\ResponseUtil.js"),
-    req_hdlr = require("D:\\Enterprise_Projs\\nodejs\\Lesson_7\\01play\\util\\RequestUtil.js");
+res_hdlr = require("../util/ResponseUtil.js"),
+req_hdlr = require("../util/RequestUtil.js");
 
 exports.version = "0.1.0";
 
