@@ -1,0 +1,10 @@
+{
+  "name":"ExpressTest",
+  "description":"Playing with ExpressJS",
+  "version": "0.1.0",
+  "private":true,
+  "dependencies":{
+    "express":"3.x",
+    "async":"2.x"
+  }
+}
